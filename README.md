@@ -116,7 +116,7 @@ curl -G localhost:19092/topics/foo/messages?group=bar
 
 The [official repository](https://github.com/mailgun/kafka-pixy)(which is awesome, btw) provides the `.proto` file for the client, just produce the `stub` for the language of your choice(they have helper libraries for `go` and `python`) and you will be ready to go.
 
-For the sake of simplicity, I have provided a [sample client]().
+For the sake of simplicity, I have provided a [sample client](gRPC-clients/go/client.go).
 
 ## <u>Running</u>
 
