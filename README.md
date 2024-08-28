@@ -3,9 +3,9 @@
 ![Kafka](https://img.shields.io/badge/kafka-2.3.0-green) ![InfluxDB](https://img.shields.io/badge/influxdb-1.8-green) ![Zookeeper](https://img.shields.io/badge/zookeeper-3.6.2-green) ![Docker](https://img.shields.io/badge/docker-20.10.2-blue) ![Go](https://img.shields.io/badge/go-1.15.6-blue)
 
 - Engineered a distributed data ingestion service in Go to handle high-throughput gRPC/REST client data. 
-- Published data to Kafka topics, enabling decoupled, asynchronous communication between services. 
+- Published logs to Kafka topics, enabling decoupled, asynchronous communication between services. 
 - Leveraged Zookeeper to eliminate Single Points of Failure (SPOF) and ensure high availability performance.
-- Ingested to a write-intensive database like InfluxDB, designed to handle large volumes of time-series data efficiently. 
+- Ingested logs to a write-intensive database like InfluxDB, designed to handle large volumes of time-series data efficiently. 
 
 ## <u> Why do we need it? </u>
 
