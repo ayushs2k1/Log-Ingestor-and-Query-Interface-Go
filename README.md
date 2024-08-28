@@ -4,8 +4,8 @@
 
 - Engineered a distributed data ingestion service in Go to handle high-throughput gRPC/REST client data. 
 - Published data to Kafka topics, enabling decoupled, asynchronous communication between services. 
-- Leveraged Zookeeper to eliminate Single Points of Failure (SPOF) and ensure high availability performance. 
-- Developed a web interface for full-text search across logs stored in Elasticsearch for real-time retrieval.
+- Leveraged Zookeeper to eliminate Single Points of Failure (SPOF) and ensure high availability performance.
+- Ingested to a write-intensive database like InfluxDB, designed to handle large volumes of time-series data efficiently. 
 
 ## <u> Why do we need it? </u>
 
@@ -144,7 +144,7 @@ Hippo can be used to handle high volume streaming data, some of the usecases tha
 
 - [ ] Right now, the messages sent do not enforce any schema, this feature will be very useful while querying the influxdb (Add an enrichment layer to the connector itself, maybe (?))
 
-- [x] Provide benchmarks
+- [] Develop a web interface for full-text search across logs stored in Elasticsearch for real-time retrieval. 
 
 ## <u>Acknowledgement</u>
 
